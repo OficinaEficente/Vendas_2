@@ -1,0 +1,13 @@
+name = "vendas-direcao-oficina-eficiente"
+main = "worker.js"
+compatibility_date = "2026-08-08"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+SUPABASE_URL = "https://acdskpcmcglfwhablhxg.supabase.co"
+SUPABASE_ANON_KEY = "sb_publishable_mtVruW8I6oJ-TJHnKRbDOA_VDiNovR0"
+GA_ID = "G-98TJFWXW7C"
